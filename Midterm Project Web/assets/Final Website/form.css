@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Navigation a {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    color: #2D5661;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 25px;
+    margin: 0 10px;
+
+}
+
+.Navigation a:hover {
+    background-color: #2D5661;
+    color: white;
+} 
+.Navigation a:active{
+    background: rgb(100, 106, 131);
+    color: black;
+    
+}
+
+body {
+    background-color: #cccccc;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url(backgroundforfinals.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+header {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2D5661;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+}
