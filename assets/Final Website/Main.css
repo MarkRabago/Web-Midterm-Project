@@ -1,0 +1,218 @@
+
+html {
+     scroll-behavior: smooth;
+}
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+/*edit of the nav bar */
+.Navigation a {
+     font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+     color: #2D5661;
+     font-size: 18px;
+     font-weight: 500;
+     text-decoration: none;
+     padding: 6px 15px;
+     border-radius: 25px;
+     margin: 0 10px;
+ 
+ }
+
+ .Navigation a:hover {
+     background-color: #2D5661;
+     color: white;
+ } 
+ .Navigation a:active{
+     background: rgb(100, 106, 131);
+     color: black;
+     
+}
+
+/*main edits */
+ body {
+     background-color: #cccccc;
+     background-size:contain;
+     background-repeat: no-repeat;
+}
+
+header {
+     
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 30px 80px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #2D5661;
+     font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+}
+
+
+section {
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     scroll-snap-align: start;
+
+}
+
+.Homepage {
+     scroll-snap-type: y mandatory;
+     overflow-y: scroll;
+     height: 100vh;
+}
+
+/*page 1 edits*/
+#page1 {
+     background-image: url(backgroundforfinals.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+#Intro{
+     font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 65px;
+     text-align: center;
+     color: #2D5661;
+     padding-top: 110px;
+   
+}
+#IntroDd {
+      font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+     text-align: center;
+     font-size: 20px;
+     color: #2D5661;
+     margin-top: 6px;
+     padding: 20px;
+}
+     
+#IntroDd2 {
+     font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+     text-align: center;
+     font-size: 20px;
+     color: #2D5661;
+     margin-top: 6px;
+     padding: 0px;
+}
+
+#page2 {
+     font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+     padding-top: 50px;
+     padding-bottom: 8px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     background-image: url(your-name-featured.jpg);
+     background-size: cover;
+     
+}
+
+#page2 h2 {
+     font-size: 40px;
+     color: #d3f5be;
+     -webkit-text-stroke-color: rgb(40, 53, 77);
+     -webkit-text-stroke-width: thin;
+     
+}
+
+section a {
+     text-decoration-line: none;
+}
+
+#page2 h3 {
+     text-decoration-line: none;
+     color: #daf8b0;
+     font-size: 30px;
+     -webkit-text-stroke-color: rgb(40, 53, 77);
+     -webkit-text-stroke-width: thin;
+
+}
+
+#page3 {
+     font-family: 'Abel', sans-serif;
+     font-family: 'Cormorant Garamond', serif;
+     padding-top: 50px;
+     padding-bottom: 8px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     background-image: url(3rdpagebg.jpg);
+     background-size: cover;
+     color: #daf8b0;
+
+}
+
+#page3 h2 {
+     margin-top: 110px;
+     padding: 10px;
+     font-size: 64px;
+     -webkit-text-stroke-color: rgb(130, 104, 96);
+     -webkit-text-stroke-width: thin;
+}
+
+#page3 h3 {
+     margin-right: 400px;
+     margin-left: 400px;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 30px;
+     word-spacing: 1.5;
+     font-weight: 200;
+     -webkit-text-stroke-color: rgb(147, 119, 119);
+     -webkit-text-stroke-width: thin;
+
+  
+}
+
+#page3 h6 {
+     color: #daf8b0;
+     font-size: medium;
+     list-style: none;
+     -webkit-text-stroke-color: rgb(40, 53, 77);
+     -webkit-text-stroke-width: thin;
+
+}
+
+#page3 a {
+     color: #daf8b0;
+     list-style: none;
+     text-decoration: underline;
+     -webkit-text-stroke-color: rgb(40, 53, 77);
+     -webkit-text-stroke-width: thin;
+
+}
+
+/* Main-footer edit */
+.footer-section{
+     background-image: url(footer-cover-2.jpg);
+     background-size: cover;
+     height: 185px;
+     bottom: 0;
+}
+
+
+.footer-icons {
+     padding-top: 83px;
+     font-size: x-large;
+}
+
+.footer-icons a {
+     color: rgb(242, 244, 212);
+     padding-top: 100px;
+     margin-left: 95px;
+     margin-right: 100px;
+     -webkit-text-stroke-color: rgb(23, 37, 14);
+     -webkit-text-stroke-width: thin;
+}
